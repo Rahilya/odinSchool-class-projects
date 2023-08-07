@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-main-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 25px;
+    margin: 28px 235px;
+}
+
+.about-main-box > h1{
+    padding: 15px 0;
+    font-weight: 300;
+}
+
+.about-main-box > p{
+    font-size: 16px;
+}
+
+.what-we-do{
+    background-color: darkslategrey;
+    /* height: 200px; */
+    width: 100%;
+    align-self: flex-start;
+    color: aliceblue;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.what-we-do > p{
+    padding: 10px 0px;
+    /* border: 2px solid yellow; */
+}
