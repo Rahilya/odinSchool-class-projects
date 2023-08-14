@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>PandaFoods</title>
+</head>
+
+<body>
+    <div class="head-main-wraper">
+        <!-- header which have nav bar -->
+        <header id="header">
+            <nav class="
+        navbar">
+                <div id="logo">
+                    <img src="./images/pandafoods.png" alt="">
+                </div>
+                <div class="right-links">
+                    <ul>
+                        <li>Section 1</li>
+                        <li>Section 2</li>
+                        <li>Section 3</li>
+                        <li>Section 4</li>
+                        <li>Section 5</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main section -->
+
+        <main>
+            <div id="left-side-container">
+                <h1>A healthy meal <br> delivered to your door, <br>every single day.</h1>
+                <p>The smart 365-days-per-year food subscriptioon that will make <br> you eat healthy again. Tailored to
+                    your personal taste and <br> nutritional needs.</p>
+                <div class="button-container">
+                    <button type="button" class="button active" id="btn1">Start eating well</button>
+                    <button type="button" class="button" id="btn2">Learn more|</button>
+                </div>
+                <div class="custmor-img">
+                    <div class="image-container">
+                        <img src="./images/customers/customer-1.jpg
+                " alt="">
+                        <img src="./images/customers/customer-2.jpg" alt="">
+                        <img src="./images/customers/customer-3.jpg" alt="">
+                        <img src="./images/customers/customer-4.jpg" alt="">
+                        <img src="./images/customers/customer-5.jpg" alt="">
+                        <img src="./images/customers/customer-6.jpg" alt="">
+                        <p class="meal-count"> <span class="number-meal">2,50,000+</span> meals per year</p>
+                    </div>
+                </div>
+            </div>
+            <div id="right-side-container">
+                <img src="./images/hero.png" alt="">
+            
+            </div>
+        </main>
+
+    </div>
+    <div class="section-wrapper">
+
+        <!-- Featured section -->
+        <section id="featured-in">
+            <h2>As Featured In</h2>
+            <div class="featured-img">
+                <img src="./images/logos/techcrunch.png" alt="">
+                <img src="./images/logos/business-insider.png" alt="">
+                <img src="./images/logos/the-new-york-times.png" alt="">
+                <img src="./images/logos/forbes.png" alt="">
+                <img src="./images/logos/usa-today.png" alt="">
+            </div>
+        </section>
+
+        <!-- App section -->
+
+        <section id="app-info">
+            <h2>Your daily dose of health in 3 simple steps.</h2>
+            <div class="app-image0wrapper">
+                <div class="app-img">
+                    <div class="app-img-text">
+                        <span>01</span> <br>
+                        <strong>Tell us what you like(and what not)</strong><br>
+                        <p>never again waste time thinking about what to eat PandaFood <br>AI will create a 100%
+                            personalized weekly meal plan just for you. <br> it makes sure you got all the nutrients and
+                            vitamins you need. <br> no matter what diet you follow</p>
+                    </div>
+                    <img src="./images/app/app-screen-1.png" alt="">
+                </div>
+                <div class="app-img">
+                    <img src="./images/app/app-screen-2.png" alt="">
+                    <div class="app-img-text">
+                        <span>02</span> <br>
+                        <strong>Approve your weekly meal plan</strong><br>
+                        <p>Once per week, approve the meal plan genrated for you by<br>PandaFood AI You can change
+                            ingredients, swap entire meals, <br>oe even add your own recepie</p>
+                    </div>
+                </div>
+                <div class="app-img">
+                    <div class="app-img-text">
+                        <span>03</span> <br>
+                        <strong>Receive meals at convenient time</strong><br>
+                        <p>Best chefs in town will cook your selected meal every day, and <br>we will deliver it to your
+                            whenever works for you. You <br> can change delivery schedule and address daily!</p>
+                    </div>
+                    <img src="./images/app/app-screen-3.png" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Sign-up section -->
+        <section id="sign-up-now-container">
+            <div class="sign-up-form">
+                <h2>Get your first meal for free!</h2>
+                <p>Healthy tasty and hassle-free meals are waiting for you. Start eating well <br>today. You can cancel
+                    or pause anytime. And the first meal is o us!</p>
+
+                <div class="form-container">
+                    <form>
+                        <div class="flex-col">
+                            <div class="form-group">
+                                <label for="full-name">Full Name:</label><br>
+                                <input type="text" id="full-name" name="full-name" placeholder="John Smith" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label><br>
+                                <input type="email" id="email" name="email" placeholder="John@gmail.com" required>
+                            </div>
+                        </div>
+                        <div class="flex-col">
+                            <div class="form-group">
+                                <label for="hear-about">Where did you hear about us?</label><br>
+                                <select id="hear-about" name="hear-about" required>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="friend">From a friend</option>
+                                    <option value="social-media">Social media</option>
+                                    <option value="website">Our website</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <button type="submit" id="sign-up-btn">Sign Up Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <img src="./images/eating.jpg" alt="">
+        </section>
+    </div>
+
+
+    <!-- footer section -->
+    <footer>
+        <div class="">
+            <img src="./images/pandafoods.png" alt="" id="logo">
+           
+            <p> Copyright 2023 PandaFoods All rights reserved</p>
+        </div>
+        <div class="footer-links">
+            <h3>Contact us</h3>
+            <address>623, Harrison St. 2nd floor <br>San Franssico</address>
+            <p>415-201-6370</p>
+            <p>hello@pandafoods.com</p>
+        </div>
+        <div class="footer-links">
+            <h3>Account</h3>
+            <ul>
+                <li><a href="">create Account</a></li>
+                <li><a href="">Sign in</a></li>
+                <li><a href="">iOS App</a></li>
+                <li><a href="">Android App</a></li>
+            </ul>
+        </div>
+        <div class="footer-links"><h3>Company</h3>
+            <ul>
+                <li><a href="">About PandaFoods</a></li>
+                <li><a href="">For business</a></li>
+                <li><a href="">Cooking Partners</a></li>
+                <li><a href="">Careers</a></li>
+            </ul></div>
+        <div class="footer-links">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="">Recepie Directory</a></li>
+                <li><a href="">Help Center</a></li>
+                <li><a href="">Privacy & Terms</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</html>
